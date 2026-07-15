@@ -10,7 +10,7 @@
 */
 -- QUERY OFICIAL
 select
-	'20555530090' AS ruc_informante,
+	'20100047218' AS ruc_informante,                          --NUEVO: RUC BCP
 	case
 		WHEN ht.nbr_resolutor = 'VISA' 				THEN '05'
 		WHEN ht.nbr_resolutor = 'MASTERCARD' 		THEN '05'
