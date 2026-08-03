@@ -108,6 +108,6 @@ where
 	AND ht.nbr_resolutor 					is not null
 	AND ht.num_referencia_fis 				is not null
 	--and ht.fec_creacion >= date '2026-02-01' and ht.fec_creacion <= date '2026-02-28'
-	and ht.fec_dia >= date '2026-06-01' and ht.fec_dia <= date '2026-06-30'
+	and ht.fec_dia >= date '2026-07-01' and ht.fec_dia <= date '2026-07-31'
 limit 100;
 
