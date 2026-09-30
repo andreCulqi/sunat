@@ -1,11 +1,11 @@
 /*
 ================================================================================
   REPORTE SUNAT
-  Institucion : Culqi (6022)
+  Institucion : BCP (0002)
                 1. Ejecución con LIMIT 100 --> se sube
                 2. Ejecución de toda la data completa --> se sube
                 
-                Presentarsela a Jose Carlos Mamami
+                Presentarsela a David Zacarias
 ================================================================================
 */
 -- QUERY OFICIAL
@@ -108,6 +108,6 @@ where
 	AND ht.nbr_resolutor 					is not null
 	AND ht.num_referencia_fis 				is not null
 	--and ht.fec_creacion >= date '2026-02-01' and ht.fec_creacion <= date '2026-02-28'
-	and ht.fec_dia >= date '2026-07-01' and ht.fec_dia <= date '2026-07-31'
+	and ht.fec_dia >= date '2026-08-01' and ht.fec_dia <= date '2026-08-31'
 limit 100;
 
